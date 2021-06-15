@@ -192,7 +192,7 @@ export default {
                 confirmButtonText: 'Oke!'
             }).then((result) => {
                 if (result.value) {
-                    axios.post("http://127.0.0.1:8000/api/checkout", checkoutData)
+                    axios.post("http://shayna-backend.belajarkoding.com/api/checkout", checkoutData)
                         // .then(res => {console.log(res)})
                         //cara debug untuk liat data di lempat atau ngak. tp then bawah di commet
                         .then(() => this.$router.push("success"))
@@ -208,7 +208,7 @@ export default {
                 }
             })
 
-            // axios.post("http://admin-olshop.com/api/checkout", checkoutData)
+            // axios.post("http://shayna-backend.belajarkoding.com/api/checkout", checkoutData)
             //     // .then(res => {console.log(res)})
             //     //cara debug untuk liat data di lempat atau ngak. tp then bawah di commet
             //     .then(() => this.$router.push("success"))

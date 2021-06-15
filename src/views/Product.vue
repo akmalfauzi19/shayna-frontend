@@ -138,7 +138,7 @@ export default {
             }
         }
         axios
-            .get("http://127.0.0.1:8000/api/products", {
+            .get("http://shayna-backend.belajarkoding.com/api/products", {
                 params: {
                     id: this.$route.params.id
                 }
